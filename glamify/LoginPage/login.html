@@ -25,6 +25,7 @@
                         <label>*Email Address</label>
                         <div class="c1">
                             <input id="email" type="text" placeholder="Email Address" required>
+                            
 
                         </div>
                         <label>*Password</label>
@@ -35,7 +36,7 @@
                         <a href="forgot_pass.html">FORGOTTEN YOUR PASSWORD?</a>
                         <input type="submit" value="SIGN IN" name="contine" id="button"><a href="Main.html"></a>
                         <p>Didn't have an account?</p>
-                        <p id="create"><a href="C:\Users\Harshvardhan\OneDrive\Desktop\2.oooo\Aura Amore\Sign_upPage\sign_up.html">Create an Account </a></p>
+                        <p id="create"><a href="C:\Users\Harshvardhan\OneDrive\Desktop\2.oooo\glamify\Sign_upPage\sign_up.html">Create an Account </a></p>
                         <div>
                             <div id="socialconnect">
                                 <div class="facebook">
@@ -73,14 +74,14 @@
                 console.log(loginArr[i].email, email, loginArr[i].password, password)
                 if (loginArr[i].email === email && loginArr[i].password === password) {
                     alert("Login Successfully Done");
-                    window.location.href = "C:\\Users\\Harshvardhan\\OneDrive\\Desktop\\2.oooo\\Aura Amore\\MainPage\\Main.html"
+                    window.location.href = "C:\\Users\\Harshvardhan\\OneDrive\\Desktop\\2.oooo\\glamify\\MainPage\\Main.html"
                     break;
                 } else {
                     if ((loginArr.length - 1) == i) {
                         alert("check email and password correct or Wrong else goto REGISTER");
                     }
                 }
-            }
+            } 
         } else {
             alert("check email and password correct or Wrong else goto REGISTER");
         }
